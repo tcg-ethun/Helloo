@@ -1,92 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
+    font-family: "Poppins";
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    padding: 1rem;
-}
-
-nav ul {
-    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    background-color: rgba(233, 244, 249, 0.696);
+    align-items: center;
+    height: 100vh;
+    line-height: 1.6;
 }
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 4rem 2rem;
-    background-color: #f4f4f4;
-}
-
-.hero h1 {
-    margin-bottom: 1rem;
-}
-
-.courses-grid {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.courses-grid h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.course-card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 1rem;
-    margin: 1rem;
-    text-align: center;
-}
-
-.course-card img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.course-card button {
-    background: #007bff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    .courses-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
+h1{
+    text-shadow: 0px 0px 5px rgb(177, 178, 179);
+    font-display: swap;
+    font-size: 8vw;
 }
